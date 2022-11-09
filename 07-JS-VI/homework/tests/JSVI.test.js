@@ -50,7 +50,6 @@ describe('forEach(arr, cb)', function() {
 		expect(nums).toEqual([1, 2, 3, 4, 5]);
 	});
 });
-
 describe('map(arr, cb)', function() {
 	it('should return an array of all the processed array elements', function() {
 		const squares = map([1, 2, 3, 4, 5], function(num) {
