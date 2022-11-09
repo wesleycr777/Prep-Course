@@ -92,7 +92,7 @@ function agregarMetodo() {
   //Ej: "Juan, 22 años"
   Persona.prototype.datos = function() {
     const saludo = this.nombre + ", " + 
-      this.edad + "años ";
+      this.edad + "años";
       return saludo; 
    //return '${this.nombre}, ${this.edad} años' ;
   }
